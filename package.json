@@ -1,0 +1,7 @@
+{
+  "name": "raiders-proxy",
+  "version": "1.0.0",
+  "description": "Events proxy for ARC Raiders",
+  "main": "api/events.js",
+  "license": "MIT"
+}
