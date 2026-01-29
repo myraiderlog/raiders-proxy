@@ -1,9 +1,7 @@
-
 {
-  "name": "raiders-proxy",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "Events proxy for ARC Raiders",
-  "main": "api/events.js",
-  "license": "MIT"
+  "functions": {
+    "api/events.js": {
+      "runtime": "nodejs20.x"
+    }
+  }
 }
