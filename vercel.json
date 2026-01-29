@@ -1,15 +1,9 @@
+
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/*.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    }
-  ]
+  "name": "raiders-proxy",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Events proxy for ARC Raiders",
+  "main": "api/events.js",
+  "license": "MIT"
 }
